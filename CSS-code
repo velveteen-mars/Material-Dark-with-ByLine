@@ -1,0 +1,1128 @@
+* {
+  font-family: 'Roboto', Sans-Serif !important;
+  line-height: 1.2;
+}
+
+a,
+a:visited {
+  color: #eeeeee !important;
+}
+
+a:focus,
+img:focus,
+span:focus,
+*:focus {
+  outline: 0;
+  border: 0;
+}
+
+span {
+  color: #eeeeee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  line-height: 1.3em;
+}
+
+html,
+body,
+#inner,
+#outer,
+.wrapper {
+  background: #000000;
+  color: #eeeeee;
+  box-shadow: none;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.flash {
+  color: #eeeeee !important;
+  box-shadow: none;
+}
+
+.notice,
+.comment_notice {
+  background: #37474F;
+  border: 1px solid #263238;
+  box-shadow: none;
+}
+
+.reading h4.viewed,
+.reading h4.viewed span {
+  background: #1c1c1c;
+  color: #bababa !important;
+  padding: 0.5em 0;
+}
+
+#header,
+#header .primary {
+  background: #212121;
+  box-shadow: none;
+  color: #eeeeee !important;
+}
+
+#header {
+  padding-top: 1em;
+}
+
+#header .heading {
+  margin-left: 2em;
+}
+
+#header .heading a {
+  color: #eeeeee;
+}
+
+#header .primary {
+  margin-top: 1em;
+}
+
+#greeting .user > li a {
+  color: #eeeeee;
+}
+
+#greeting img {
+  display: none;
+}
+
+#header .primary a.dropdown-toggle {
+  padding: 0.7em 0.5em;
+  border-bottom: 2px solid #212121;
+}
+
+#header .primary .dropdown:hover a.dropdown-toggle {
+  background: #212121;
+  color: #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+}
+
+#header .menu {
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header .menu li {
+  background: #1c1c1c;
+  margin: 0;
+  border: 0;
+  padding: 0.1em 0.5em;
+}
+
+#header a,
+#header a:visited,
+#header .primary .dropdown:hover a {
+  color: #eeeeee;
+  text-decoration: none !important;
+}
+
+#header a:hover,
+#header a:visited:hover,
+#header .primary .dropdown:hover a:hover {
+  background: transparent;
+  color: #eeeeee;
+  text-decoration: none !important;
+}
+
+#login,
+#greeting {
+  margin-right: 3.5em;
+  margin-top: 0.5em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#greeting .user>li {
+  margin: 0;
+}
+
+#header .dropdown:hover a,
+#header .dropdown:hover a:visited,
+#header .dropdown:focus a:focus {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #eeeeee;
+}
+
+#header #greeting .dropdown:hover .menu {
+  margin: 0;
+  padding: 0.5em 0;
+  text-transform: none;
+  width: auto;
+}
+
+#header #greeting .dropdown .menu a,
+#header #greeting .dropdown .menu a:visited {
+  border-top: 1px solid #212121;
+}
+
+#header #greeting .dropdown .menu a:hover,
+#header .dropdown .menu a:focus,
+#header .actions a:hover {
+  background: transparent;
+  color: #eeeeee;
+}
+
+#header .search {
+  margin-right: 2em;
+}
+
+#header .search .actions input,
+form.search input[type="text"] {
+  background: #eeeeee !important;
+  background-image: none !important;
+  color: #121212 !important;
+}
+
+#header .user .current {
+  color: #eeeeee;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+form.search input[type="text"] {
+  border-radius: none;
+}
+
+.actions input:hover {
+  color: #121212;
+  box-shadow: none;
+}
+
+.actions input:focus {
+  outline: 0;
+  border: 0;
+}
+
+.search [role="tooltip"] {
+  border: 1px solid #212121;
+  background: #1c1c1c;
+  color: #eeeeee;
+}
+
+#header #search .button {
+  background: #1c1c1c;
+  color: #eeeeee;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+#header #search .button:focus {
+  box-shadow: none;
+  color: #eeeeee;
+  background: #000000;
+  outline: 0;
+}
+
+.splash .module h3 {
+  color: #eeeeee;
+  border: 0;
+}
+
+.splash .favorite a,
+.splash .favorite li:nth-of-type(odd) a {
+  color: #cccccc;
+  padding: 0.2em 0em;
+  background: #000000;
+  text-decoration: underline;
+}
+
+.splash .favorite a:hover,
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite a:focus,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #000000;
+}
+
+.splash .news li {
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.splash .news a {
+  border: 0 !important;
+}
+
+.splash .news .heading .link,
+.splash .link a,
+.splash .link a:visited {
+  text-decoration: underline;
+  color: #cccccc;
+  border: 0;
+}
+
+.splash .news h4.heading {
+  text-decoration: underline;
+}
+
+.splash .news blockquote {
+  color: #eeeeee;
+}
+
+.splash .jump {
+  text-decoration: underline;
+}
+
+.system p {
+  color: #eeeeee;
+}
+
+div.comment,
+li.comment {
+  border: 1px solid #212121;
+  color: #eeeeee;
+  background: #000000;
+}
+
+.comment h4.byline {
+  background: #212121;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions input,
+input[type="submit"],
+button,
+.actions label {
+  background: #212121;
+  border: 0;
+  color: #eeeeee;
+  padding: 0.4em 0.8em;
+  box-shadow: none;
+}
+
+.actions a:hover,
+.actions input:hover,
+.actions a:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  box-shadow: none;
+  border: 0;
+  color: #eeeeee;
+}
+
+#footer {
+  background: #1c1c1c;
+  border: 0;
+}
+
+#footer a {
+  border: 0;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+#footer a:focus {
+  outline: 0;
+}
+
+a.tag,
+a.tag:visited {
+  border: 0;
+  text-decoration: underline;
+}
+
+a.tag:hover,
+a.tag:visited:hover {
+  background: transparent;
+}
+
+li.blurb,
+fieldset,
+form dl {
+  border: 0;
+  background: #1c1c1c;
+  padding: 1em;
+  box-shadow: none;
+}
+
+.work .blurb .header,
+.work .blurb .tags,
+.work .blurb .summary {
+  border-bottom: 1px solid #212121;
+  padding-bottom: 1em;
+}
+
+.blurb h4 {
+  color: #bababa;
+}
+
+.blurb h4 a:link:first-of-type {
+  font-weight: 500;
+}
+
+.blurb h4 a:link {
+  color: #bababa;
+  border-bottom: 0;
+  text-decoration: none;
+}
+
+.blurb h4 a[rel="author"] {
+  color: #bababa !important;
+  text-decoration: underline;
+}
+
+.blurb ul.series {
+  margin-top: 0;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #212121;
+}
+
+.blurb ul.series a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.tags {
+  padding-top: 1em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.tags a.tag {
+  line-height: 1;
+}
+
+.tags a.tag:hover {
+  background: transparent;
+}
+
+.tags .warnings a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.tags .relationships a {
+  background: transparent;
+  font-weight: 500;
+}
+
+.tags .characters a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.tags .freeforms a {
+  color: #bababa !important;
+  text-decoration: none;
+}
+
+.blurb .work .summary,
+.splash .blurb blockquote,
+#user-works .summary,
+#user-bookmarks .summary {
+  color: #eeeeee;
+}
+
+.current {
+  background: #000000;
+  color: #bababa;
+  border: 1px solid #1c1c1c;
+  box-shadow: none;
+  padding: 0.4em 0.8em;
+}
+
+.work .blurb .stats,
+.blurb dl.stats {
+  color: #bababa;
+  margin-bottom: 1em;
+}
+
+.work .blurb .stats a,
+.blurb dl.stats a {
+  border: 0;
+  color: #bababa !important;
+  text-decoration: underline;
+}
+
+.work .blurb .header .datetime,
+.blurb .datetime {
+  color: #bababa;
+  text-transform: uppercase;
+}
+
+select {
+  border: 0;
+}
+
+form dt {
+  border-bottom: 1px solid #212121;
+}
+
+.filters .heading {
+  font-weight: 400;
+}
+
+.help .symbol span {
+  color: #121212 !important;
+}
+
+.filters .expander {
+  color: #bababa;
+}
+
+.filters .expander:focus {
+  outline: 0;
+}
+
+input {
+  border: 0;
+  box-shadow: none;
+}
+
+.dropdown {
+  background: transparent;
+  color: #eeeeee;
+  box-shadow: none;
+}
+
+.dropdown .notice {
+  color: #eeeeee;
+  box-shadow: none;
+}
+
+.autocomplete div.dropdown ul {
+  background: #212121;
+  color: #eeeeee;
+  border: 2px solid #212121;
+  box-shadow: none;
+}
+
+.autocomplete .dropdown ul li:hover {
+  background: #1c1c1c;
+  color: #bababa;
+}
+
+.toggled form,
+.dynamic form {
+  box-shadow: none;
+  background: #000000;
+  color: #eeeeee !important;
+}
+
+#ui-datepicker-div {
+  background: #212121;
+  box-shadow: none;
+  border: 1px solid #1c1c1c;
+}
+
+.ui-datepicker table {
+  background: #1c1c1c;
+}
+
+thead,
+th {
+  background: #000000;
+  border: 1px solid #121212;
+}
+
+.ui-datepicker td {
+  border: 1px solid #121212;
+}
+
+.ui-datepicker tr:hover {
+  background: #212121;
+}
+
+.ui-datepicker td:hover {
+  background: #000000;
+}
+
+.secondary {
+  box-shadow: none;
+  border: 1px solid #121212;
+  background: #1c1c1c;
+}
+
+dl.meta {
+  border: 0;
+  background: #1c1c1c;
+  margin-top: 1.2em;
+  padding: 1.5em 2em;
+}
+
+dl.meta dt,
+dl.meta dd {
+  float: none;
+}
+
+dl.meta dt {
+  padding: 0;
+}
+
+dl.meta dt,
+dl.meta dt.tags,
+dl.meta dt.tags a,
+dl.meta dt.warning,
+dl.meta dt.warning a {
+  color: #bababa !important;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 0;
+}
+
+dl.meta dd,
+dl.meta dd a,
+dl.meta dd .commas a {
+  padding: 0;
+  width: auto;
+  color: #eeeeee !important;
+}
+
+dl.meta dd {
+  padding: 0em 0em 0.5em 0em;
+  margin-left: 0;
+  border-bottom: 1px solid #212121;
+}
+
+dl.meta dd a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.meta ul li {
+  padding-left: 0;
+}
+
+dd.stats dl.stats dt {
+  text-transform: none;
+}
+
+dd.stats dl.stats dd {
+  padding: 0em 0.5em 0em 0em;
+  font-weight: 500;
+  border: 0;
+}
+
+dd.stats dl.stats dd a {
+  text-decoration: underline;
+  border: 0;
+}
+
+#workskin .preface h2.heading {
+  font-weight: 500;
+  margin: 0;
+}
+
+#workskin .preface .byline a {
+  line-height: 1;
+  color: #bababa !important;
+  text-decoration: underline;
+  text-transform: none;
+}
+
+.preface h3 {
+  text-transform: uppercase;
+  color: #bababa !important;
+  border-bottom: 1px solid #212121;
+}
+
+.preface blockquote {
+  margin: 0;
+}
+
+.preface .userstuff a,
+.preface blockquote a,
+div.preface .associations a,
+div.preface .series a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.preface .jump,
+#notes > p {
+  color: #bababa;
+  border: 0;
+}
+
+.preface .jump a,
+.preface .jump a:hover,
+#notes > p a,
+#notes > p a:hover {
+  color: #bababa !important;
+  text-decoration: underline;
+  border: 0;
+}
+
+.chapter .preface {
+  border: 0;
+}
+
+.chapter .preface h3.title {
+  text-transform: none;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.chapter .preface h3.title a {
+  font-weight: 500;
+  text-decoration: underline;
+  border: 0;
+}
+
+textarea {
+  border: 2px solid #212121 !important;
+}
+
+textarea:focus {
+  border: 2px solid #1c1c1c !important;
+}
+
+.chapter .userstuff h1,
+.chapter .userstuff h2,
+.chapter .userstuff h3,
+.chapter .userstuff h4,
+.chapter .userstuff h5,
+.chapter .userstuff h6 {
+  color: #eeeeee;
+}
+
+.chapter .userstuff a,
+.chapter .userstuff blockquote a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.feedback #kudos a {
+  border: 0;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+.thread .even {
+  background: #1c1c1c;
+}
+
+.comment a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.comment .heading a {
+  font-weight: 500;
+}
+
+.comment .heading .parent {
+  color: #bababa;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #212121;
+}
+
+.comment .posted,
+.comment .posted span {
+  color: #bababa;
+  text-transform: uppercase;
+}
+
+#dashboard.own {
+  border-radius: 0;
+  border: 0;
+  background: #1c1c1c;
+}
+
+#dashboard a {
+  text-decoration: underline;
+  line-height: 1.5;
+}
+
+#dashboard a:hover {
+  background: transparent;
+}
+
+#dashboard ul {
+  border-top: 1px solid #212121;
+  padding: 1em 0;
+  text-align: left;
+}
+
+#dashboard .current {
+  background: transparent;
+  color: #bababa;
+  line-height: 1.5;
+}
+
+.dashboard .own {
+  background: #1c1c1c;
+}
+
+.home .header h2 {
+  font-weight: 500;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.listbox {
+  border: 1px solid #212121;
+  box-shadow: none;
+  background: #212121;
+}
+
+.listbox > .heading {
+  color: #eeeeee;
+  padding: 0.4em 0.8em;
+}
+
+.listbox .index {
+  background: #1c1c1c;
+  box-shadow: none;
+}
+
+.bookmark .blurb .group {
+  border-bottom: 5px solid #212121;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.bookmark .user {
+  border-top: 1px solid #212121;
+  border-right: 0;
+  border-left: 0;
+  color: #bababa !important;
+}
+
+.bookmark div.user {
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.bookmark div.user .datetime {
+  top: 1.9em;
+  right: 1.5em;
+}
+
+.bookmark .user .byline a {
+  color: #bababa !important;
+  border: 0;
+  text-decoration: underline;
+}
+
+.bookmark .blurb ul.series li,
+.bookmark .blurb ul.series li a {
+  color: #bababa !important;
+  padding: 0;
+  margin: 0;
+}
+
+.bookmark .tags {
+  border-top: 1px solid #212121;
+  margin-top: 0.5em;
+  padding-top: 0.7em;
+}
+
+.bookmark .summary {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: 1px solid #212121;
+  border-bottom: 1px solid #212121;
+}
+
+#modal {
+  background: #000000;
+  border: 2px solid #1c1c1c;
+  box-shadow: none;
+}
+
+#modal .content {
+  border-bottom: 2px solid #1c1c1c;
+}
+
+#modal .content a,
+#modal content a:visited {
+  border: 0;
+  text-decoration: underline;
+}
+
+form .notice,
+form ul.notes {
+  box-shadow: none;
+}
+
+form.verbose legend,
+.verbose form legend {
+  box-shadow: none;
+  border: 0;
+  background: #212121;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.required {
+  color: #eeeeee;
+}
+
+fieldset fieldset {
+  background: #1c1c1c;
+}
+
+.post .meta dd ul li,
+.footnote {
+  color: #eeeeee;
+}
+
+.dashboard ul.skin li {
+  background: #1c1c1c;
+}
+
+.picture .header {
+  border-bottom: 1px solid #212121;
+}
+
+dl.index dd {
+  background: #000000;
+}
+
+.subscription a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.subscription dt {
+  margin-top: 1.5em;
+  font-weight: 500;
+}
+
+.subscription dd {
+  padding: 0 !important;
+  margin: 0.2em 0em !important;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+.subscription input[type="submit"] {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+form dd.required {
+  color: #eeeeee;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  box-shadow: none;
+  border: 1px solid #1c1c1c;
+  background: #212121;
+}
+
+.own,
+.draft,
+.draft .wrapper,
+.unread,
+.child,
+.unwrangled,
+.unreviewed {
+  background: #000000;
+}
+
+.summary a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.error,
+.comment_error,
+.alert.flash {
+  background: #C62828;
+  border: 1px solid #B71C1C;
+  box-shadow: none;
+}
+
+.alert .userstuff {
+  background: #D84315;
+  border-color: #BF360C;
+  color: #eeeeee;
+}
+
+.alert a {
+  border: 0;
+  text-decoration: underline;
+}
+
+.announcement input[type="submit"],
+.announcement .action {
+  color: #BF360C;
+}
+
+.wrapper > dl.meta {
+  padding: 1em;
+}
+
+div.userstuff a {
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+div.userstuff li {
+  line-height: 1.3em;
+}
+
+h2.heading a {
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+div#dashboard a {
+  margin: 0.8em 0;
+}
+
+#dashboard,
+#dashboard.own {
+  border-color: #212121;
+}
+
+div#user-fandoms a {
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+dl.stats dd.chapters a {
+  background-color: #000000;
+  padding: 0.3em 0.5em;
+  border-radius: 15%;
+  transition: 0.3s;
+}
+
+dl.stats dd.chapters a:hover {
+  color: #ffffff !important;
+}
+
+.blurb .relationships {
+  font-style: italic;
+  background: none;
+}
+
+ul.tags {
+  padding-top: .5em;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left !important;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "Archive Warnings: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+li.characters + li.freeforms:before {
+  content: "Freeform: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Freeform: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Freeform: ";
+  color: #ad0202;
+  font-weight: bold;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+input,
+textarea,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  font-size: 16px;
+}
