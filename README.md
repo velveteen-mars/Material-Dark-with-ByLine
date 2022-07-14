@@ -7,7 +7,4 @@ HOW TO USE:
 1. Dashboard > Skins > Create Site Skin
 2. Fill out About pane details
 3. Paste in the following CSS in the large box 
-4. Collapse the Advanced panel
-5. Make sure 'add on to archive skin' is selected
-6. Tick 'all' and 'screen' under 'Choose @media'
-7. Submit > Use
+4. Submit > Use
